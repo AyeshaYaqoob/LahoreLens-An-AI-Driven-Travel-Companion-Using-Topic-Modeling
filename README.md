@@ -18,7 +18,12 @@ LahoreLens-FYP/
 │   └── frontend/         # React Application
 └── datasets/             # Raw & Processed Data
 ```
+## NLP Pipeline Implemented
 
+1. **Data Preprocessing**: Standardized 21,525 records by removing noise and normalizing Roman Urdu text.
+2. **Topic Modeling (LDA)**: Classified reviews into themes: Food & Dining, General/Lifestyle, and Social.
+3. **Sentiment Analysis**: Leveraged **Hugging Face Multilingual BERT** to classify the mood of comments.
+   
 ## 🛠️ Tech Stack
 
 - **Backend:** Node.js, Express.js
